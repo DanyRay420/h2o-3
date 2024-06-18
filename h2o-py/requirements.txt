@@ -30,3 +30,4 @@ gssapi
 # [demos dependencies]
 #termios; sys.platform != 'win32'
 #msvcrt; sys.platform == 'win32'
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
